@@ -1,0 +1,83 @@
+.css-exercise-img {
+  max-width: 100%;
+}
+
+.css-exercise-subtitle {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.css-exercise-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.css-exercise-code-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.css-exercise-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.css-exercise-supercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c-section {
+  width: 100%;
+  max-width: 820px;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+
+.c-section__title {
+  background-color: #24252a;
+  width: 100%;
+  color: white;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px solid #b7b8b7;
+  margin-bottom: 30px;
+}
+
+.c-services {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+}
+
+.c-services__item {
+  background-color: #f7f5f7;
+  width: 395px;
+  padding: 0 10px 10px 10px;
+}
+
+.c-services__item h3 {
+  margin: 30px 50px;
+}
+
+.c-services__item:hover {
+  box-shadow: darkgray 0px 15px 20px -20px;
+}
+
+.css-exercise-result {
+  margin: 20px 0;
+  background-color: white;
+  padding: 10px;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: aqua;
+  background-image: url("./assets/background.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}

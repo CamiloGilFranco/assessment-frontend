@@ -1,0 +1,36 @@
+.question-page-accordion-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.question-page-accordion {
+  width: 90%;
+  max-width: 800px;
+}
+
+.question-page-accordion-button {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #222;
+  text-align: left;
+}
+
+.question-page-accordion-paragraph {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.question-page-accordion-paragraph-exp {
+  margin: 10px 0;
+}
+
+.question-page-accordion-paragraph-link {
+  color: white;
+}
