@@ -16,7 +16,7 @@ const CSSExercisePage = () => {
           </div>
           <div className="css-exercise-subcontainer">
             <span className="css-exercise-subtitle">Código CSS</span>
-            <img src={css} alt="" className="" />
+            <img src={css} alt="" className="css-exercise-img" />
           </div>
         </div>
 

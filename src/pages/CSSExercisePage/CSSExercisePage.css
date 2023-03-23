@@ -23,6 +23,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1180px) {
+  .css-exercise-code-container {
+    flex-direction: column;
+  }
+}
+
 .css-exercise-title {
   color: white;
   font-size: 22px;
