@@ -1,6 +1,6 @@
 import "./AboutPage.css";
 import HeaderComponent from "../../components/HeaderComponent/HeaderComponent";
-import foto from "../../assets/ifIHadOne.gif";
+import foto from "../../assets/photo.jpg";
 import facebook from "../../assets/facebook.svg";
 import github from "../../assets/github.svg";
 import gmail from "../../assets/gmail.svg";

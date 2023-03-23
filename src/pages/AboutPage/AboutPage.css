@@ -20,12 +20,6 @@
   margin-top: 20px;
 }
 
-@media (max-width: 900px) {
-  .about-page-body-i-am {
-    flex-direction: column;
-  }
-}
-
 .about-page-body-i-am-photo-container {
   width: 400px;
   height: 400px;
@@ -33,14 +27,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: solid 3px gray;
+  border-radius: 30px;
 }
 
 .about-page-body-i-am-photo {
   object-fit: cover;
   min-height: 100%;
   min-width: 100%;
-  border-radius: 30px;
-  border: solid 3px gray;
 }
 
 .about-page-body-i-am-list {
@@ -123,4 +117,10 @@
 
 .about-page-body-social-network-item-mail {
   width: 350px;
+}
+
+@media (max-width: 900px) {
+  .about-page-body-i-am {
+    flex-direction: column;
+  }
 }
