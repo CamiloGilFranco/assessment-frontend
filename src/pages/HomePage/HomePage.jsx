@@ -11,10 +11,10 @@ const HomePage = () => {
   const { posts, loading, error } = useSelector(
     (state) => state.myStoreReducer
   );
-
   return (
     <div className="home-page">
       <HeaderComponent />
+      <span className="home-page-title">PRODUCTS</span>
       <div className="home-page-body">
         {loading ? (
           <div className="page-loading">
@@ -34,6 +34,7 @@ const HomePage = () => {
             image={element.image}
             title={element.title}
             id={element.id}
+            limitTimeNumber={element.limitTimeNumber}
           />
         ))}
       </div>

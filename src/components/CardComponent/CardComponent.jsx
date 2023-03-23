@@ -2,19 +2,11 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import expired from "../../assets/expired.png";
 
-const CardComponent = ({ image, title, id }) => {
+const CardComponent = ({ image, title, id, limitTimeNumber }) => {
   const navigate = useNavigate();
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-
-  const limitTime = new Date();
-  const randomMinutes = Math.floor(Math.random() * 11);
-  const randomSeconds = Math.floor(Math.random() * 60);
-
-  limitTime.setMinutes(limitTime.getMinutes() + randomMinutes);
-  limitTime.setSeconds(limitTime.getSeconds() + randomSeconds);
-  const limitTimeNumber = limitTime.getTime();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -46,7 +38,7 @@ const CardComponent = ({ image, title, id }) => {
   }, []);
 
   const handleClick = () => {
-    navigate(`/detalle/${id}`, { state: { seconds } });
+    navigate(`/detalle/${id}`);
   };
 
   return (

@@ -22,7 +22,10 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/questions" element={<QuestionsPage />} />
         <Route path="/css-exercise" element={<CSSExercisePage />} />
-        <Route path="/detalle/:id" element={<DetailPage />} />
+
+        <Route path="/detalle">
+          <Route path=":id" element={<DetailPage />} />
+        </Route>
       </Routes>
     </div>
   );
